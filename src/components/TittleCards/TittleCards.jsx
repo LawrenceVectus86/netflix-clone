@@ -42,7 +42,7 @@ const TittleCards = ({title, category}) => {
 
   return (
     <div className='tittle-cards'>
-      <h2>{title?title:"Popular on Netflix"}</h2>
+      <h2>{title?title:"Popular on CalFlix"}</h2>
       <div className="card-list" ref={cardsRef}>
         {apiData.map((card, index)=>{
           return <Link to={`/player/${card.id}`} className='card' key={index}>

@@ -35,7 +35,17 @@ const Navbar = () => {
       <div className="navbar-right">
         <img src={search} className="icons" />
         <p>Children</p>
+        <div className="navbar-profile">
         <img src={bell} className="icons" />
+        <table className="dropdown">
+          <tbody>
+            <tr>
+              <td>Deadpool: Film Recommendation</td>
+              <td>Bulan: Agustus 2024</td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
         <div className="navbar-profile">
           <img src={profile} className="profile" />
           <img src={caret} className="icons" />
